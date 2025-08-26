@@ -122,6 +122,9 @@ export default function Game() {
       cameraY.current = CANVAS_HEIGHT / 2 - player.current.y;
     }
 
+    console.log(delta);
+    
+
     // Move tiles relative to camera
     setTiles((prev) =>
       prev
